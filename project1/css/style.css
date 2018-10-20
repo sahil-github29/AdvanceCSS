@@ -1,0 +1,26 @@
+/*
+ * Simple reset for consistancy 
+ */
+
+/* This is universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  /* Removes default border and padding from the box element */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* 1.7 means that it is 1.7 times bigger then the predefined line heigh */
+  line-height: 1.7;
+  color: #777;
+}
+
+.header {
+  /* it says that at every point that the height of this box
+   */
+  height: 95vh;
+}
